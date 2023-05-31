@@ -1,0 +1,28 @@
+{
+  "name": "LittleWebview",
+  "version": "1.0.0",
+  "description": "A versatile Electron application enabling command line interactions with a WebView",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "npm ci && electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "cli",
+    "webview",
+    "node"
+  ],
+  "author": "SegoCode (https://github.com/SegoCode)",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^24.3.1"
+  },
+  "devDependencies": {
+    "electron": "^24.3.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
