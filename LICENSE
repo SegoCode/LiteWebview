@@ -1,0 +1,79 @@
+Copyright (c) 2020, SegoCode
+All rights reserved.
+
+Section 1 – Definitions.
+
+  1. NonCommercial refers to any usage, distribution, or adaptation of the licensed 
+     material that is not primarily intended for or directed towards commercial 
+     advantage or monetary compensation, unless specific prior explicit and signed 
+     written permission is granted by the original author, SegoCode.
+
+  2. Adapted Material refers to any material derived from or based upon the licensed 
+     material, in which the licensed material is translated, altered, arranged, 
+     transformed, or otherwise modified. This definition excludes exact copies of 
+     the material.
+
+  3. ProhibitedPractices include, but are not limited to:
+  
+       a. Derived or adapted material must clearly acknowledge the original work and the 
+          original author, SegoCode, in a place in the documentation or other materials 
+          provided with the distribution. This acknowledgment should include a link to the 
+          original source code repository.
+       b. Distributing the licensed material bundled with unrelated or potentially harmful 
+          software, such as adware, malware, or spyware, that may compromise the security, 
+          privacy, or user experience of individuals who access or use the material.
+       c. Falsely claiming endorsements or associations with the original author, other 
+          contributors to the project, or any well-known entity, in an attempt to 
+          mislead users or enhance the credibility of the derived or adapted material.
+
+Section 2 – License Conditions.
+
+  1. Redistributions of the licensed material, either in source code or binary form, 
+     must retain the above copyright notice, this list of conditions, the following 
+     disclaimer, and the definitions in Section 1. When redistributing in binary 
+     form, these elements must be included in the documentation and/or other 
+     materials provided with the distribution.
+
+  2. Redistribution and use of the material, in source or binary forms, are allowed 
+     for NonCommercial purposes only. The creation, reproduction, and sharing of adapted 
+     material are also permitted for NonCommercial purposes, provided that no 
+     ProhibitedPractices are involved in any case.
+
+  3. Redistribution of Adapted Material must be available in a publicly accessible 
+     compressed or archival form, which includes the source code of the Adapted 
+     Material, all modules it contains, any associated interface definition files, 
+     scripts used to control compilation and installation of executable code, and 
+     the appropriate decompression or de-archiving software widely available for 
+     no charge. Redistribution should be free of charge unless otherwise agreed upon 
+     with the original author, SegoCode.
+
+  4. If you allow users to interact with the Adapted Material remotely via a computer 
+     network, you must provide the complete corresponding machine-readable source code for 
+     the version they are using. This source code must be provided under the same terms and 
+     conditions outlined in this license, and through a publicly accessible repository, a 
+     downloadable archive, or other readily accessible means. This requirement applies even 
+     if you run the Adapted Material on a server and users interact with it remotely through 
+     a network.
+
+  5. It is encouraged to acknowledge the original author of the initial 
+     work of the project, SegoCode, when using the licensed material or related works/services 
+     in any derivative or adapted work. However, if an agreement is reached with the 
+     original author, SegoCode, the acknowledgment requirement may be waived or 
+     adjusted according to the terms of the agreement.
+
+Section 3 – Updates and Revisions.
+
+  1. SegoCode reserves the right to revise, update, or change this license at any time, 
+     without any obligation to provide prior notice or notification to users.
+
+  2. Continued use of the licensed material following any changes to the license constitutes 
+     acceptance of those changes. It is the user's responsibility to regularly review the 
+     license terms and ensure compliance with its current version.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
