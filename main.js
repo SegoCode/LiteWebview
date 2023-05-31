@@ -14,7 +14,7 @@ function createWindow () {
   })
 
   // Get the URL from the command line argument, if provided, else default to GitHub
-  const url = process.argv[2] || 'https://github.com'
+  const url = process.argv[2] || 'https://github.com/SegoCode'
   win.loadURL(url)
 
   // Inject CSS to hide scrollbar
