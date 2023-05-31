@@ -6,7 +6,8 @@
   "scripts": {
     "start": "electron .",
     "dev": "npm ci && electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-builder --win portable"
   },
   "keywords": [
     "electron",
@@ -16,13 +17,18 @@
   ],
   "author": "SegoCode (https://github.com/SegoCode)",
   "license": "ISC",
-  "dependencies": {
-    "electron": "^24.3.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "electron": "^24.3.1"
+    "electron": "^15.3.0",
+    "electron-builder": "^23.6.0"
   },
   "engines": {
     "node": ">=14.0.0"
+  },
+  "build": {
+    "win": {
+      "target": "portable",
+      "icon": "\\media\\icon.ico"
+    }
   }
 }
