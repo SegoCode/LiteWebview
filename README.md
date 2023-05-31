@@ -14,7 +14,6 @@ You can clone and run the project from source code.
 ```
 git clone https://github.com/SegoCode/LiteWebview
 cd LiteWebview
-npm install
 npm run dev https://www.google.com
 ```
 
