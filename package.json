@@ -1,5 +1,5 @@
 {
-  "name": "LittleWebview",
+  "name": "LiteWebview",
   "version": "1.0.0",
   "description": "A versatile Electron application enabling command line interactions with a WebView",
   "main": "main.js",
