@@ -13,7 +13,9 @@ function createWindow () {
     }
   })
 
-  win.loadURL('https://github.com')
+  // Get the URL from the command line argument, if provided, else default to GitHub
+  const url = process.argv[2] || 'https://github.com'
+  win.loadURL(url)
 
   // Inject CSS to hide scrollbar
   win.webContents.on('did-finish-load', () => {
