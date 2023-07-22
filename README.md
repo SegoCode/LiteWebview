@@ -23,3 +23,8 @@ You can specify the URL of the website you want to open in the webview as a comm
 ```
 npm run dev https://www.google.com
 ```
+
+Binary form
+```
+LiteWebview.exe "" "http://www.google.com"
+```
