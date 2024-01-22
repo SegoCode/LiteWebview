@@ -1,37 +1,42 @@
-// Import required modules
-const { app, BrowserWindow } = require('electron') // Importing 'app' and 'BrowserWindow' from 'electron' module.
+const { app, BrowserWindow } = require('electron');
 
-let win // Define a variable to hold your application's main window.
+let win;
 
-// Function to create a new application window
-function createWindow () {
-  // Instantiate a new BrowserWindow with specific options.
-  win = new BrowserWindow({
-    frame: false, // Creates a frameless window
-    fullscreen: true, // The window will be created in full-screen mode
-    webPreferences: {
-      nodeIntegration: true, // Allows use of Node.js APIs in the renderer process
-      contextIsolation: false // Running JavaScript in isolated context
-    }
-  })
+function createWindow() {
+  try {
+    win = new BrowserWindow({
+      frame: false,
+      fullscreen: true,
+      title: "LiteWebview",
+      webPreferences: {
+        nodeIntegration: true,
+        contextIsolation: false
+      }
+    });
 
-  // Get the URL from the command line argument, if provided, else default to GitHub
-  let url = process.argv[2] || 'https://github.com/SegoCode';
+    const url = process.argv[2] || 'https://github.com/SegoCode';
+    win.loadURL(url);
 
-  // Load the specified URL into the BrowserWindow
-  win.loadURL(url)
+    win.webContents.on('did-finish-load', () => {
+      win.webContents.insertCSS('body::-webkit-scrollbar { display: none; }');
+    });
 
-  // After the page is fully loaded, insert custom CSS to hide the scrollbar
-  win.webContents.on('did-finish-load', () => {
-    win.webContents.insertCSS('body::-webkit-scrollbar { display: none; }') // Injecting custom CSS
-  })
+    // Add the page-title-updated event listener
+    win.on('page-title-updated', function(e) {
+      e.preventDefault();
+    });
+
+  } catch (error) {
+    console.error('Error occurred while creating window:', error);
+  }
 }
 
-// When Electron is fully initialized, create the application window
-app.whenReady().then(createWindow)
+try {
+  app.whenReady().then(createWindow);
 
-// Event listener for when all application windows have been closed
-app.on('window-all-closed', function () {
-  // Quit the application
-  app.quit()
-})
+  app.on('window-all-closed', () => {
+    app.quit();
+  });
+} catch (error) {
+  console.error('Error in app lifecycle:', error);
+}
