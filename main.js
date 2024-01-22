@@ -7,7 +7,7 @@ function createWindow() {
     win = new BrowserWindow({
       frame: false,
       fullscreen: true,
-      title: "LiteWebview",
+      title: "litewebview",
       webPreferences: {
         nodeIntegration: true,
         contextIsolation: false
