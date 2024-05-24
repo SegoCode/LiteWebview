@@ -25,7 +25,7 @@ npm run dev <website-url>
 You can clone and run the project from source code.
 ```
 git clone https://github.com/SegoCode/LiteWebview
-cd LiteWebview
+cd LiteWebview/code
 npm run dev https://www.google.com
 ```
 
